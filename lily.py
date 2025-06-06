@@ -195,7 +195,7 @@ def lily_chat():
                     elif '.' in clean_follow_up: # Or a period, and turn it into a question
                         clean_follow_up = clean_follow_up.split('.', 1)[0].strip() + '?'
                     
-                    print(f"{clean_follow_up}")
+                    print(f"{clean_follow_up__}")
                 else:
                     print("Tell me more about that.") # Fallback
 if __name__ == "__main__":
